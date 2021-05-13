@@ -1,0 +1,70 @@
+.btnSelected {
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+
+.listContainer {
+    padding: 0px 20px 10px 20px;
+}
+
+.searchContainer {
+    margin: 21px 0px 15px 0px;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .btn {
+        font-size: x-small;
+        font-weight: bolder;
+        width: 50%;
+    }
+
+    .btnContainer {
+        width: 100%;
+    }
+
+    .listContainer {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .searchContainer {
+        flex-direction: column;
+        padding: 0px 11px;
+    }
+
+    .title { 
+        padding: 0px 11px; 
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .btn {
+        font-size: small;
+        width: 50%;
+    }
+
+    .btnContainer {
+        width: 100%;
+    }
+
+    .listContainer {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .searchContainer {
+        flex-direction: column;
+        padding: 0px 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+}

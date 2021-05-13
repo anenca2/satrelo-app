@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+}
+
+.btnDisabled {
+    cursor: not-allowed;
+}
+
+.listContainer {
+    margin-top: 15px;
+    padding: 0px 20px 10px 20px;
+}
+
+.link {
+    color: var(--white);
+}
+
+.link:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    width: 47%;
+}
+
+.titleContainer {
+    margin-top: 25px;
+    padding: 0px 20px;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: small;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .btnContainer {
+        margin-top: 11px;
+        width: 100%;
+    }
+
+    .link {
+        width: 49.5%;
+    }
+
+    .listContainer {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .titleContainer {
+        padding: 0px 11px;
+        flex-direction: column;
+    }
+}

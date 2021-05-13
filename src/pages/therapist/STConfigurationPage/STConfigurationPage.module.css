@@ -1,0 +1,93 @@
+.btn {
+    width: 50%;
+}
+
+.btnContainer {
+    margin: 21px 0px 9px 0px;
+    padding: 0px 20px;
+    width: 450px;
+}
+
+.btnSelected {
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+
+.container {
+    margin-top: 15px;
+    padding: 0px 20px 10px 20px;
+}
+
+.create {
+    color: var(--black);
+    width: 200px;
+}
+
+.createContainer {
+    margin: 15px 0px 10px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+@media (max-width: 321px) {
+    .btn {
+        font-size: small;
+        width: 48.5%;
+    }
+
+    .btnContainer {
+        padding: 0px 11px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .create {
+        width: 100%;
+    }
+
+    .createContainer {
+        padding: 0px 11px 0px 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .btn {
+        font-size: small;
+        width: 50%;
+    }
+
+    .btnContainer {
+        padding: 0px 11px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .create {
+        width: 100%;
+    }
+
+    .createContainer {
+        padding: 0px 11px 0px 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+}

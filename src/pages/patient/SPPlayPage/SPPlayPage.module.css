@@ -1,0 +1,22 @@
+.btnClose {
+    color: var(--white);
+}
+
+.btnClose:active,
+.btnClose:focus,
+.btnClose:hover {
+    color: var(--white);
+}
+
+.closeContainer {
+    padding: 5px 50px;
+    text-align: right;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--black);
+    min-height: 100vh;
+    justify-content: center;
+    width: 100%;
+}

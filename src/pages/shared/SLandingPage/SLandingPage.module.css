@@ -1,0 +1,52 @@
+.container {
+    min-height: calc(100vh - 62px);
+}
+
+.features {
+    background-color: var(--white);
+    padding: 90px 0px;
+    width: 100%;
+}
+
+.featuresTitle {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.mainIdea {
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.mainPhrase {
+    background-color: var(--bg-gray);
+    color: var(--main-darkblue);
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 400px 280px 90px 280px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .featuresTitle {
+        font-size: 1.6em;
+    }
+
+    .mainPhrase {
+        font-size: 1.5em;
+        margin-top: 300px;
+        padding: 120px 7px 90px 7px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .mainPhrase {
+        padding: 120px 150px 90px 150px;
+    }
+}

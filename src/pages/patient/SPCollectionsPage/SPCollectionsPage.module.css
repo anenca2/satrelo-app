@@ -1,0 +1,33 @@
+.container {
+    padding: 0px 0px 10px 0px;
+}
+
+.score {
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.scoreIcon {
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+.title {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+@media (max-width: 1123px) {
+    .score {
+        padding: 0px 11px;
+    }
+    
+    .title {
+        padding: 0px 11px;
+    }
+}

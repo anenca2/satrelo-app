@@ -1,0 +1,37 @@
+.container {
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.formContainer {
+    border: 1px solid var(--lightgray);
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    padding: 11px 20px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.userData {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 20px 0px 30px 0px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .formContainer {
+        padding: 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+}

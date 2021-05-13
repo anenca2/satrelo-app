@@ -1,0 +1,60 @@
+.container {
+    padding: 0px 20px 10px 20px;
+}
+
+.description {
+    color: var(--white);
+    font-size: 1.3em;
+    padding: 0px 5px;
+}
+
+.descriptionTitle {
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 27px;
+    padding: 0px 5px;
+}
+
+.score {
+    color: var(--white);
+    font-size: x-large;
+    font-weight: 600px;
+    padding: 0px 0px 0px 20px;
+}
+
+.scoreIcon {
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+.title {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .description {
+        padding: 0px 11px;
+    }
+
+    .descriptionTitle {
+        padding: 0px 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1123px) {
+    .container {
+        padding: 0px 11px 10px 11px;
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+    padding: 0px 20px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0px 11px;
+    }
+}

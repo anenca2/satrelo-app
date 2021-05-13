@@ -1,0 +1,209 @@
+:root {
+    --aquamarine: #26C6DA;
+    --bg-gray: #FAFBFB;
+    --black: black;
+    --gray: gray;
+    --lightgray: #E0E0E0;
+    --main-blue: #2196F3;
+    --main-darkblue: #1976D2;
+    --main-darkestblue: #1565C0;
+    --main-red: #EF5350;
+    --main-darkred: #E53935;
+    --main-yellow: #FFD54F;
+    --main-lightyellow: #FFF59D;
+    --main-darkyellow: #FFC107;
+    --white: white;
+}
+
+iframe {
+    border: 0;
+}
+
+.App {
+    background-color: var(--white);
+}
+
+.App-parallax-bg {
+    background-image: url(./images/background.png);
+    position: fixed;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.App-container {
+    margin-top: var(--vOffset);
+    padding: 0;
+    min-height: calc(100vh - var(--vOffset));
+}
+
+.avatar-container {
+    align-items: center;
+    position: fixed;
+    left: 70px;
+    height: calc(100vh - var(--vOffset));
+    z-index: 101;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.h-delimiter {
+    background-color: var(--lightgray);
+    height: 1px;
+    width: 100%;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ghost-btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: var(--black);
+    padding: 0;
+}
+
+.ghost-btn:active,
+.ghost-btn:focus,
+.ghost-btn:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    color: var(--black);
+}
+
+.left {
+    margin-right: 5px;
+}
+
+.pdf-btn {
+    background-color: var(--main-red);
+    border-color: var(--main-red);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.pdf-btn:active, .pdf-btn:focus, .pdf-btn:hover {
+    background-color: var(--main-darkred) !important;
+    border-color: var(--main-darkred) !important;
+    box-shadow: none !important;
+}
+
+.primary-btn {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.primary-btn:active,
+.primary-btn:focus,
+.primary-btn:hover {
+    background-color: var(--main-darkblue) !important;
+    border-color: var(--main-darkblue) !important;
+    box-shadow: none !important;
+    color: var(--white);
+}
+
+.primary-btn-outline {
+    background-color: var(--white);
+    border: 1px solid var(--main-blue);
+    color: var(--main-blue);
+    font-weight: 600;
+}
+
+.primary-btn-outline:active,
+.primary-btn-outline:focus,
+.primary-btn-outline:hover {
+    background-color: var(--main-blue) !important;
+    border-color: var(--main-blue) !important;
+    box-shadow: none !important;
+    color: var(--white);
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+    display: block !important;
+}
+
+.react-datepicker-wrapper .react-datepicker__input-container input {
+    width: 100% !important;
+}
+
+.secondary-btn {
+    background-color: var(--main-yellow);
+    border-color: var(--main-yellow);
+    color: var(--black);
+    font-weight: 600;
+}
+
+.secondary-btn:active,
+.secondary-btn:focus,
+.secondary-btn:hover {
+    background-color: var(--main-darkyellow) !important;
+    border-color: var(--main-darkyellow) !important;
+    color: var(--black) !important;
+    box-shadow: none !important;
+}
+
+.secondary-btn-outline {
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.secondary-btn-outline:active,
+.secondary-btn-outline:focus,
+.secondary-btn-outline:hover {
+    background-color: var(--main-yellow);
+    border-color: var(--main-yellow) !important;
+    box-shadow: none !important;
+    color: var(--black);
+}
+
+.simple-btn {
+    background-color: var(--white);
+    border: 1px solid var(--black); 
+    color: var(--black);
+    font-weight: 600;
+}
+
+.simple-btn:active, .simple-btn:focus, .simple-btn:hover {
+    background-color: var(--white) !important;
+    border-color: var(--black) !important;
+    box-shadow: none !important;
+    color: var(--black) !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .avatar-container {
+        left: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1123px) {
+    .avatar-container {
+        left: 20px;
+    }
+}
+
+@media (min-width: 1124px) and (max-width: 1669px) {
+    .avatar-container {
+        left: 80px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .avatar-container {
+        left: 240px;
+    }
+}

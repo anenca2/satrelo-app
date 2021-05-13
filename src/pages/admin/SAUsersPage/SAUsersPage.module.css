@@ -1,0 +1,35 @@
+.btnCreate {
+    margin-left: 5px;
+    min-width: 100px;
+}
+
+.listContainer {
+    padding: 0px 20px 10px 20px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.toolsContainer {
+    justify-content: flex-end;
+    margin: 21px 0px 15px 0px;
+    padding: 0px 20px;
+}
+
+@media (max-width: 767px) {
+    .listContainer {
+        padding: 0px 11px 10px 11px;
+    }
+
+    .title {
+        padding: 0px 11px;
+    }
+
+    .toolsContainer {
+        padding: 0px 11px;
+    }
+}

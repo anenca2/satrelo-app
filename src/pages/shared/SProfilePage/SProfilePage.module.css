@@ -1,0 +1,39 @@
+.btn {
+    color: var(--gray);
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.selected {
+    color: var(--gray);
+    border-bottom: 3px solid var(--gray);
+    padding-bottom: 12px;
+}
+
+.selected:active,
+.selected:focus,
+.selected:hover {
+    color: var(--gray) !important;
+    border-bottom: 3px solid var(--gray) !important;
+    padding-bottom: 12px;
+}
+
+.options {
+    margin-top: 10px;
+    padding: 0px 25px;
+}
+
+.optContainer {
+    width: 280px;
+}
+
+@media (max-width: 767px) {    
+    .options {
+        padding: 0px 15px;
+    }
+}
