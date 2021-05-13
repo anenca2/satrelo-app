@@ -1,0 +1,13 @@
+.subtitle {
+    color: darkgrey;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 7px 11px;
+}
+
+@media (max-width: 767px) {
+    .subtitle {
+        padding: 7px 0px;
+    }
+}

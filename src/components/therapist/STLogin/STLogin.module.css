@@ -1,0 +1,42 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btnForgot {
+    text-align: right;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--white);
+    border: 1px solid var(--lightgray);
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    margin: auto;
+    padding: 20px 21px 25px 21px;
+    width: 420px;
+}
+
+.error {
+    color: var(--main-red);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}

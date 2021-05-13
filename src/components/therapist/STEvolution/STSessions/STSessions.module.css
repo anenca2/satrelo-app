@@ -1,0 +1,4 @@
+.container {
+    border-bottom: 1px solid var(--lightgray);
+    padding: 20px 0px 15px 0px;
+}

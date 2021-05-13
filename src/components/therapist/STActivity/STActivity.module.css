@@ -1,0 +1,84 @@
+.container {
+    background-color: white;
+    border: 1px solid var(--lightgray);
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    min-height: 120px;
+    margin: 15px 0px 0px 0px;
+    padding: 5px 15px 18px 15px;
+}
+
+.date {
+    color: var(--gray);
+}
+
+.description {
+    margin-top: 11px;
+}
+
+.btnEvolution {
+    margin-top: 11px;
+    text-decoration: underline;
+}
+
+.btnEvolution:hover {
+    text-decoration: underline;
+}
+
+.aimage {
+    background-color: darkgray;
+    border-radius: 50%;
+    margin-right: 23px;
+    margin-top: 15px;
+    min-height: 100px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.innerContainer {
+    align-items: flex-start;
+    min-height: 120px;
+}
+
+.nameContainer {
+    margin-top: 9px;
+    width: 100%;
+}
+
+.rightContainer {
+    min-height: 120px;
+    width: 100%;
+}
+
+.syntContainer {
+    margin-top: 5px;
+    padding: 5px 0px;
+    width: 150px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .container {
+        border-radius: 0;
+    }
+    
+    .aimage {
+        margin-top: 11px;
+        margin-right: 0px;
+    }
+
+    .innerContainer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rightContainer {
+        margin-top: 31px;
+        min-height: 7px;
+    }
+}

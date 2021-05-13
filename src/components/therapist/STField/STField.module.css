@@ -1,0 +1,31 @@
+.container {
+    background-color: white;
+    border: 1px solid var(--lightgray);
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    margin: 15px 0px 0px 0px;
+    padding: 25px 15px;
+}
+
+.optionCol {
+    padding: 3px !important;
+}
+
+.optionRow {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: gray;
+    font-size: medium;
+}
+
+@media (max-width: 767px) {
+    .optionCol {
+        padding: 3px 0px !important;
+    }
+}

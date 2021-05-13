@@ -1,0 +1,30 @@
+.comments {
+    color: var(--gray);
+}
+
+.comments:active, .comments:focus, .comments:hover {
+    color: var(--gray);
+}
+
+.container {
+    margin-top: 27px;
+    width: 100%;
+}
+
+.delete {
+    color: var(--main-red) !important;
+}
+
+.ml {
+    margin-left: 5px;
+}
+
+.mr {
+    margin-right: 2px;
+}
+
+@media (max-width: 320px) {
+    .btn {
+        font-size: x-small;
+    }
+}

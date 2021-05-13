@@ -1,0 +1,43 @@
+.btn {
+    border-radius: 50px;
+    overflow: hidden;
+    width: var(--btnWidth);
+}
+
+.btnContainer {
+    margin: 20px 0px 15px 0px;
+    width: var(--contWidth);
+}
+
+.disabled {
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    pointer-events: none;
+}
+
+.disabled:active, .disabled:focus, .disabled:hover {
+    background-color: var(--white) !important;
+    border: 1px solid var(--gray) !important;
+    color: var(--gray) !important;
+}
+
+.selected {
+    background-color: var(--main-yellow);
+    border: 1px solid var(--main-yellow);
+    color: var(--black);
+}
+
+.span {
+    pointer-events: none;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: 1em;
+        font-weight: 700px;
+    }
+
+    .btnContainer {
+        width: 100%;
+    }
+}

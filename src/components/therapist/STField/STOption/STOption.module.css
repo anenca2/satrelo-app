@@ -1,0 +1,30 @@
+.container {
+    border: 1px solid var(--lightgray);
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    text-align: left;
+    width: 100%;
+}
+
+.container:active,
+.container:focus,
+.container:hover {
+    border: 1px solid var(--lightgray) !important;
+}
+
+.inner {
+    color: var(--lightgray);
+    padding: 11px;
+}
+
+.inner:hover {
+    color: var(--aquamarine);
+}
+
+.name {
+    color: black !important;
+}
+
+.selected {
+    color: var(--aquamarine) !important;
+}
