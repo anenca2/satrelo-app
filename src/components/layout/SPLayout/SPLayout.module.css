@@ -1,0 +1,19 @@
+.container {
+    min-height: calc(100vh - var(--vOffset));
+    padding: 40px 0px 0px 0px;
+}
+
+.outerContainer {
+    justify-content: center;
+    width: 100%;
+}
+
+.rowContainer {
+    width: 100%;
+}
+
+@media (min-width: 1370px) {
+    .rowContainer {
+        width: 1500px;
+    }
+}

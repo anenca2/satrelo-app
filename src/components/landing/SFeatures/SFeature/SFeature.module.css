@@ -1,0 +1,47 @@
+.container {
+    align-items: flex-start;
+    justify-content: left;
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.description {
+    margin-top: 5px;
+    padding: 5px 0px;
+    text-align: left;
+    width: 100%;
+}
+
+.infoContainer {
+    margin-left: 20px;
+}
+
+.logo {
+    min-height: 70px;
+    min-width: 70px;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        min-height: 150px;
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .title {
+        font-size: 1em;
+    }
+}

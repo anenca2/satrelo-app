@@ -1,0 +1,61 @@
+.bgWhite {
+    background-color: var(--white) !important;
+}
+
+.bgWhite:active, .bgWhite:focus, .bgWhite:hover {
+    background-color: var(--white) !important;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 80px;
+    overflow: hidden;
+    width: 80px;
+}
+
+.btnInv {
+    height: 80px;
+    width: 80px;
+}
+
+.icon {
+    background-color: transparent;
+    height: 80px;
+    object-fit: contain !important;
+    width: 80px;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        height: 60px;
+        width: 60px;
+    }
+
+    .btnInv {
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .btn {
+        height: 70px;
+        width: 70px;
+    }
+
+    .btnInv {
+        height: 70px;
+        width: 70px;
+    }
+
+    .icon {
+        height: 70px;
+        width: 70px;
+    }
+}

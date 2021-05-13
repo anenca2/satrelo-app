@@ -1,0 +1,62 @@
+.alt {
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 100%;
+} 
+
+.btn {
+    border-radius: 50px;
+    min-width: 200px;
+    overflow: hidden;
+}
+
+.btnContainer {
+    bottom: 70px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.cannotBuy {
+    background-color: var(--lightgray);
+    color: var(--black);
+    bottom: 40px;
+    font-weight: 600;
+    padding: 7px 11px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.collectableImg {
+    height: 280px;
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--white);
+    color: var(--white);
+    height: 406px;
+    position: relative;
+    overflow: hidden;
+}
+
+.owned {
+    background-color: var(--aquamarine);
+    box-shadow: 0px 14px 7px -12px var(--black);
+    bottom: 65px;
+    color: var(--white);
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    transform: translateX(38%) rotate(-45deg);
+    width: 100%;
+}

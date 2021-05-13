@@ -1,0 +1,18 @@
+.body {
+    padding: 11px;
+}
+
+.modal {
+    border-radius: 10px;
+}
+
+.title {
+    font-size: x-large;
+    font-size: 600;
+}
+
+@media (max-width: 767px) {
+    .body {
+        padding: 9px;
+    }
+}

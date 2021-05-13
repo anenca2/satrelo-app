@@ -1,0 +1,61 @@
+.btnFile {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 7px 11px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    padding: 0px 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hiddenImage {
+    display: none;
+}
+
+.icon {
+    color: var(--gray);
+}
+
+.iconContainer {
+    background-color: var(--lightgray);
+    border-radius: 50%;
+    height: 180px;
+    justify-content: center;
+    width: 180px;
+    overflow: hidden;
+}
+
+.innerContainer {
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.text {
+    color: var(--gray);
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0px;
+    }
+
+    .innerContainer {
+        margin-top: 21px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 0px 5px;
+    }
+}

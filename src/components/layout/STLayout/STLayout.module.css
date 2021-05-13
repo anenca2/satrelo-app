@@ -1,0 +1,26 @@
+.container {
+    background-color: var(--white);
+    min-height: calc(100vh - var(--mt));
+    padding: var(--pt) 0px 0px 0px;
+}
+
+.outerContainer {
+    justify-content: center;
+    width: 100%;
+}
+
+.rowContainer {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-top: calc(var(--pt) - 10px);
+    }
+}
+
+@media (min-width: 1370px) {
+    .rowContainer {
+        width: 1500px;
+    }
+}

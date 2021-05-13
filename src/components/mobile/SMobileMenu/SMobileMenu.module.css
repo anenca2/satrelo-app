@@ -1,0 +1,55 @@
+.btn {
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1100 !important;
+}
+
+.linksContainer {
+    padding: 10px 0px;
+}
+
+.menu {
+    background-color: var(--white);
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    padding: 20px 0px;
+    top: 0;
+    width: 80%;
+}
+
+.menuAppear {
+    animation-name: appearing;
+    animation-duration: 0.5s;
+    left: 0;
+}
+
+.menuDissapear {
+    animation-name: dissapearing;
+    animation-duration: 0.2s;
+    left: -100%;
+}
+
+@keyframes appearing {
+    0% { left: -100%; }
+
+    100% { left: 0; }
+}
+
+@keyframes dissapearing {
+    0% { left: 0; }
+
+    100% { left: -100%; }
+}

@@ -1,0 +1,135 @@
+.btn {
+    background-color: transparent;
+    height: 370px;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+    background-color: transparent !important;
+}
+
+.btnBuy {
+    border-radius: 50px;
+    bottom: 25px;
+    left: calc(50% - 50px);
+    overflow: hidden;
+    position: absolute; 
+    width: 100px;
+    z-index: 6;
+}
+
+.cannotBuy {
+    background-color: var(--lightgray);
+    bottom: 15px;
+    font-weight: 600;
+    padding: 7px 11px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+
+.collectableImg {
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px -5px var(--main-darkblue);
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.info {
+    bottom: 0;
+    height: 150px;
+    padding: 11px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.owned {
+    background-color: var(--aquamarine);
+    box-shadow: 0px 14px 7px -12px var(--black);
+    color: var(--white);
+    bottom: 24px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    transform: translateX(30%) rotate(-45deg);
+    width: 100%;
+    z-index: 4;
+}
+
+.name {
+    font-size: large;
+    font-weight: 600;
+    margin: 0 !important;
+    max-height: 27px;
+    overflow: hidden;
+}
+
+.points {
+    margin: 0 !important;
+    max-height: 27px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        height: 440px;
+    }
+
+    .collectableImg {
+        height: 270px;
+    }
+    
+    .container {
+        height: 440px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1123px) {
+    .btn {
+        height: 280px;
+    }
+
+    .collectableImg {
+        height: 130px;
+    }
+
+    .btnBuy {
+        font-size: 0.9em;
+    }
+
+    .cannotBuy {
+        font-size: 0.9em;
+    }
+
+    .container {
+        height: 280px;
+    }
+
+    .info {
+        height: 140px;
+    }
+
+    .name {
+        font-size: 1em;
+    }
+
+    .points {
+        font-size: 0.9em;
+    }
+}

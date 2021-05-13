@@ -1,0 +1,91 @@
+.btn {
+    border: none;
+    border-radius: 50px;
+    margin: 0px 3px;
+    overflow: hidden;
+    width: 35%;
+}
+
+.btnContainer {
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container {
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px -5px var(--main-darkblue);
+    min-height: 250px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.gameContainer {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    min-height: 250px;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+.gameDescription {
+    color: var(--black);
+    font-size: 1.1em;
+    margin-top: 5px;
+    max-height: 100px;
+    min-height: 70px;
+    overflow: hidden;
+}
+
+.gameTitle {
+    color: var(--black);
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.gameImage {
+    background-color: var(--white);
+    min-height: 250px;
+    min-width: 250px;
+}
+
+@media (max-width: 1023px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .gameContainer {
+        padding-bottom: 30px;
+    }
+
+    .gameImage {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1123px) {
+    .btnContainer {
+        margin-top: 30px;
+    }
+
+    .container {
+        min-height: 200px;
+    }
+
+    .gameTitle {
+        font-size: large;
+    }
+
+    .gameDescription {
+        font-size: medium;
+        max-height: 70px;
+    }
+
+    .gameImage {
+        min-height: 250px;
+        min-width: 200px;
+    }
+}

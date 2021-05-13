@@ -1,0 +1,14 @@
+.border {
+    box-shadow: 8px 8px 10px -5px var(--main-darkblue);
+}
+
+.style {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .style {
+        border-radius: 0;
+    }
+}

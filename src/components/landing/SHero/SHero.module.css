@@ -1,0 +1,103 @@
+.btn {
+    font-weight: 700;
+    height: 55px;
+    width: 100%;
+}
+
+.btnContainer {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.container {
+    min-height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.innerContainer {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 410px;
+    margin: auto;
+    width: 1100px;
+}
+
+.link {
+    width: 49%;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.outerContainer {
+    background: url(../../../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+    position: absolute;
+    width: 100%;
+}
+
+.subtitle {
+    font-size: large;
+    font-size: 600;
+    margin-top: 15px;
+    text-align: center;
+    width: 600px;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .link {
+        font-size: medium;
+        margin-top: 7px;
+        width: 80%;
+    }
+
+    .btnContainer {
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .outerContainer {
+        padding: 0px 7px;
+    }
+
+    .innerContainer {
+        width: 100%;
+    }
+
+    .subtitle {
+        width: 100%;
+    }
+
+    .title {
+        font-size: x-large;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .innerContainer {
+        width: 100%;
+    }
+
+    .outerContainer {
+        padding: 0px 90px;
+    }
+}
+
+@media (min-width: 1370px) {
+    .innerContainer {
+        width: 1350px;
+    }
+}

@@ -1,0 +1,44 @@
+.btnEdit {
+    color: var(--gray);
+}
+
+.btnEdit:active, .btnEdit:focus, .btnEdit:hover {
+    color: var(--gray) !important;
+}
+
+.container {
+    background-color: var(--white);
+    border: 1px solid var(--lightgray);
+    box-shadow: 3px 3px 10px -3px var(--lightgray);
+    margin: 15px 0px 0px 0px;
+    height: 130px;
+    padding: 0px 11px;
+}
+
+.identification {
+    color: var(--gray);
+    font-size: medium;
+}
+
+.infoContainer {
+    padding: 0px 11px;
+}
+
+.name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.thumb {
+    color: var(--white);
+    font-size: x-large;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.uimage {
+    border-radius: 50%;
+    height: 60px;
+    object-fit: cover;
+    width: 60px;
+}

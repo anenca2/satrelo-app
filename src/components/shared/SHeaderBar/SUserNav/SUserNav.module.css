@@ -1,0 +1,47 @@
+.container {
+    justify-content: flex-end;
+    height: 46px;
+    margin-right: 7px;
+    width: 100%;
+}
+
+.link {
+    color: var(--black);
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0px 11px;
+}
+
+.link:hover {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.uimage {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.thumb {
+    color: var(--white);
+    font-size: medium;
+    font-weight: 600;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin-right: 0px;
+    }
+
+    .linksContainer {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        margin-right: 2px;
+    }
+}

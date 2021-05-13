@@ -1,0 +1,60 @@
+.container {
+    background-color: var(--white);
+    justify-content: center;
+    min-height: 200px;
+    padding: 90px 0px 90px 0px;
+}
+
+.description {
+    font-size: large;
+    font-weight: 400;
+    margin: auto;
+    padding: 0px 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.image {
+    max-height: 470px;
+    margin-top: 70px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.imageContainer {
+    justify-content: center;
+    max-width: 100%;
+}
+
+.innerContainer {
+    width: 100%;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .description {
+        padding: 0px 7px;
+    }
+
+    .title {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 1200px) {
+    .description {
+        padding: 0px 11px;
+    }
+}
+
+@media (min-width: 1370px) {
+    .innerContainer {
+        width: 1350px;
+    }
+}

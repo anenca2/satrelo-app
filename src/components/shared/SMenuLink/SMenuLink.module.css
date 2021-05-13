@@ -1,0 +1,12 @@
+.style {
+    color: var(--black);
+    display: block;
+    font-weight: 500;
+    height: 45px;
+    padding: 10px 25px;
+}
+
+.style:active, .style:focus, .style:hover {
+    color: var(--black) !important;
+    text-decoration: none !important;
+}

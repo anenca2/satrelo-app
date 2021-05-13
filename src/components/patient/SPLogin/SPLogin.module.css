@@ -1,0 +1,56 @@
+.btn {
+    background-color: var(--main-darkblue);
+    border: 1px solid var(--main-darkblue);
+    border-radius: 50px;
+    margin-top: 11px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+    background-color: var(--main-darkestblue) !important;
+    border-color: var(--main-darkestblue) !important;
+}
+
+.btnForgot {
+    font-weight: 600;
+    margin-top: 21px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px -5px var(--main-darkblue);
+    padding: 30px 20px;
+    width: 500px;
+}
+
+.error {
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 30px 11px;
+        width: 97%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 100%;
+    }
+}

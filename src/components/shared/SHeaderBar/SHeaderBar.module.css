@@ -1,0 +1,45 @@
+.bar {
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 62px;
+}
+
+.logo {
+    height: 35px !important;
+    margin-right: 5px;
+    object-fit: contain;
+    object-position: center;
+    width: 35px !important;
+}
+
+.navbrand {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.patientBar {
+    background-color: var(--main-darkyellow);
+    border-bottom: 1px solid var(--main-darkyellow);
+    box-shadow: none !important;
+}
+
+.standardBar {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--lightgray);
+    box-shadow: 0px 0px 10px -3px var(--lightgray);
+}
+
+@media (max-width: 1200px) {
+    .navbrand {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 2750px) {
+    .bar {
+        padding: 0px 1350px;
+    }
+}

@@ -1,0 +1,10 @@
+.container {
+    height: 470px;
+    justify-content: center;
+    width: 100%;
+}
+
+.image {
+    height: 470px;
+    width: 200px;
+}

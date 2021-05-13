@@ -1,0 +1,28 @@
+.microphone {
+  border-radius: 50%;
+  height: 50px;
+  padding: 9px;
+  width: 50px;;
+}
+
+.microphoneText {
+  text-align: center;
+  width: 100% !important;
+}
+
+.notRecording {
+  background-color: var(--gray);
+}
+
+.recorderContainer {
+  justify-content: center;
+  margin-top: 21px !important;
+}
+
+.recorded {
+  background-color: var(--main-blue);
+}
+
+.recording {
+  background-color: var(--main-red);
+}

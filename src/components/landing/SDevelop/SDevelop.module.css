@@ -1,0 +1,42 @@
+.container {
+    background-color: var(--bg-gray);
+    justify-content: center;
+}
+
+.innerContainer {
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: center;
+    padding: 80px 11px;
+    width: 100%;
+}
+
+.icon {
+    color: var(--main-red);
+    margin: 0px 5px;
+}
+
+.logoImage {
+    height: 80px;
+    margin: 0px 11px;
+    width: 80px;
+}
+
+.logoContainer {
+    justify-content: center;
+    width: 100%;
+}
+
+.text {
+    color: gray;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (min-width: 1370px) {
+    .innerContainer {
+        width: 1350px;
+    }
+}
